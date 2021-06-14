@@ -1,17 +1,57 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="secondary">
     <ion-title>
-      Tab 1
+      Zap News
     </ion-title>
   </ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="light tint">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  <ion-card href="#">
+    <ion-card-header>
+      <img src="https://img.olhardigital.com.br/wp-content/uploads/2021/01/shutterstock_293983433-1000x450.jpg">
+      <ion-card-title>Microsoft Anuncia data para fim do suporte ao Windows 10 </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      A Microsoft anunciou uma data para o fim do suporte ao Windows 10 como um todo.
+      Segundo a empresa, as edições Home e Pro do sistema operacional serão suportadas até...
+    </ion-card-content>
+
+    <ion-button class="button">
+      <ion-icon slot="icon-only" name="thumbs-up"></ion-icon>
+    </ion-button>
+
+    <ion-button class="button">
+      <ion-icon slot="icon-only" name="heart"></ion-icon>
+    </ion-button>
+
+  </ion-card>
+
+  <ion-card href="#">
+    <ion-card-header>
+      <img src="https://noticiasconcursos.com.br/wp-content/uploads/2021/06/noticiasconcursos.com.br-transferir-auxilio-emergencial-para-o-picpay-2.jpeg">
+      <ion-card-title>Tranferir Auxilio Emergencial para o PicPay </ion-card-title>
+      <ion-card-subtitle>como fazer?Conheça algumas formas simples</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Transferir auxílio emergencial para o PicPay não é um bicho de sete cabeças.
+      E na matéria de hoje (14) vamos te mostrar maneiras simples de fazê-lo...
+    </ion-card-content>
+
+    <ion-button class="button">
+      <ion-icon slot="icon-only" name="thumbs-up"></ion-icon>
+    </ion-button>
+
+    <ion-button class="button">
+      <ion-icon slot="icon-only" name="heart"></ion-icon>
+    </ion-button>
+
+  </ion-card>
+
+
 </ion-content>
